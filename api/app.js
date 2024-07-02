@@ -10,7 +10,8 @@ import messageRoute from "./routes/message.route.js";
 
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true })); // we'll be using credentials here, as we'll be using cookies and it will help us to send our cookie to the client side.
+app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
+// we'll be using credentials here, as we'll be using cookies and it will help us to send our cookie to the client side.
 app.use(express.json());
 app.use(cookieParser());
 

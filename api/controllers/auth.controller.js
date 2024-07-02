@@ -63,7 +63,7 @@ export const login = async (req, res) => {
       { expiresIn: age }
     );
 
-    const { password: userPassword, ...userInfo } = user;
+    const { password: userPassword, ...userInfo } = user; // here, we are removing password from the data we will be sending to the frontend
 
     res
       .cookie("token", token, {
