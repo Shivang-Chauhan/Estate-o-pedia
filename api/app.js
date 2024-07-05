@@ -22,6 +22,14 @@ app.use("/api/test", testRoute);
 app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
 
+// Testing the server
+app.get("/", (req, res) => {
+  return res.json({
+    success: true,
+    message: "Your server is up and running ...",
+  });
+});
+
 app.listen(8800, () => {
   console.log("Server is running!");
 });
