@@ -44,7 +44,7 @@ Ensure you have the following installed:
 2. **Install server dependencies:**
 
    ```bash
-   cd server
+   cd api
    npm install
    ```
 
@@ -64,7 +64,7 @@ Ensure you have the following installed:
 
 5. **Set up environment variables:**
 
-   Create a `.env` file in the `server` directory and add the following:
+   Create a `.env` file in the `api` directory and add the following:
 
    ```plaintext
    DATABASE_URL=your_mongodb_uri
@@ -75,7 +75,7 @@ Ensure you have the following installed:
 6. **Run the server:**
 
    ```bash
-   cd server
+   cd api
    nodemon app.js
    ```
 
