@@ -4,8 +4,7 @@ import "./homePage.scss";
 import { AuthContext } from "../../context/AuthContext";
 
 function HomePage() {
-
-  const {currentUser} = useContext(AuthContext)
+  const { currentUser } = useContext(AuthContext);
 
   return (
     <div className="homePage">
@@ -13,23 +12,23 @@ function HomePage() {
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            explicabo suscipit cum eius, iure est nulla animi consequatur
-            facilis id pariatur fugit quos laudantium temporibus dolor ea
-            repellat provident impedit!
+            Hola amigo! EstateEcho revolutionizes the way you buy, sell and rent
+            properties. With detailed listings, search filters, and real-time
+            chat functionality, finding your perfect home has never been easier.
+            Your dream home is just a click away!
           </p>
           <SearchBar />
           <div className="boxes">
             <div className="box">
-              <h1>16+</h1>
+              <h1>2+</h1>
               <h2>Years of Experience</h2>
             </div>
             <div className="box">
-              <h1>200</h1>
+              <h1>20</h1>
               <h2>Award Gained</h2>
             </div>
             <div className="box">
-              <h1>2000+</h1>
+              <h1>100+</h1>
               <h2>Property Ready</h2>
             </div>
           </div>
