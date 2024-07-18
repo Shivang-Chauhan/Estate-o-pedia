@@ -3,16 +3,18 @@
 ## Project Overview
 
 EstateEcho is a comprehensive real estate web application built with the MERN stack (MongoDB, Express.js, React, and Node.js). This application provides a platform for users to explore, manage, and interact with real estate listings efficiently. Whether you are looking to buy or sell a property, EstateEcho offers a seamless and user-friendly experience.
+
 ## Table of Contents
 
 1. [Features](#features)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [API Endpoints](#api-endpoints)
-5. [Technologies Used](#technologies-used)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+2. [Screenshots](#screenshots)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [API Endpoints](#api-endpoints)
+6. [Technologies Used](#technologies-used)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
 ## Features
 
@@ -22,6 +24,26 @@ EstateEcho is a comprehensive real estate web application built with the MERN st
 - Property Details: Detailed view of each property with images, descriptions, and pricing.
 - Inquiries: Make and manage inquiries on properties by directly contacting the owner using real time chat functionality.
 - Responsive Design: Optimized for both desktop and mobile devices.
+
+
+## Screenshots
+
+### Home Page
+<img width="1440" alt="Screenshot 2024-07-18 at 6 40 48 PM" src="https://github.com/user-attachments/assets/3f9f9416-c6e1-4b48-8dcd-c224976b8aef">
+
+### Property Listings
+<img width="1439" alt="Screenshot 2024-07-18 at 7 03 10 PM" src="https://github.com/user-attachments/assets/1ec6fcbf-ee08-442d-a5eb-2ff8b5be3c0f">
+
+### Property Details
+<img width="1440" alt="Screenshot 2024-07-18 at 7 01 51 PM" src="https://github.com/user-attachments/assets/23fd64a4-6ae9-4a43-b4ed-b23409e96543">
+
+### Add Property
+<img width="1440" alt="Screenshot 2024-07-18 at 6 43 55 PM" src="https://github.com/user-attachments/assets/fbd9f372-5526-4095-a613-2c1f86a3f5f2">
+
+### User Login
+<img width="1439" alt="Screenshot 2024-07-18 at 6 44 23 PM" src="https://github.com/user-attachments/assets/4c3e8a3e-07ed-4289-9f7f-01fab85c44be">
+
+
 
 ## Installation
 
